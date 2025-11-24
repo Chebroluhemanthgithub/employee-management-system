@@ -1,0 +1,101 @@
+/* GLOBAL STYLES */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTAINER */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* CARD STYLE FOR FORMS */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+/* HEADERS */
+h2, h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus {
+  border-color: #4e8cff;
+  outline: none;
+}
+
+/* BUTTONS */
+button {
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.btn-add {
+  background: #4e8cff;
+  color: white;
+}
+
+.btn-edit {
+  background: orange;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-delete {
+  background: red;
+  color: white;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+thead {
+  background: #4e8cff;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f1f5ff;
+}
+
+tr:hover {
+  background: #e8f0ff;
+}
